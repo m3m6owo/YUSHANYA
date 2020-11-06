@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+header {
+    background-color: #dee2eb;
+}
+body {
+    background-color: rgb(247, 240, 234);
+}
+
+div.box {
+    width: 100%;
+}
+
+div.two_box {
+    width: 80%;
+    background-color: white;
+    margin: 30px auto 30px auto;
+}
+
+div.top_box {
+    width: 90%;
+    height: 45%;
+    display: flex;
+    margin: 0 auto;
+}
+
+div.left_box {
+    width: 40%;
+}
+div.photo {
+    width: 60%;
+    border-radius: 50%;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.right_box {
+    width: 60%;
+}
+
+div.about_text {
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+    margin: 35px 0px;
+}
+
+div.name {
+    margin: 30px auto;
+    line-height: 0;
+    font-size: 20px;
+
+    color: rgb(77, 76, 76);
+}
+
+div.text1 {
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+
+div.text2 {
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+div.text3 {
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+div.text4 {
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+
+div.text5 {
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+
+div.middle_box {
+    width: 80%;
+
+    display: flex;
+
+    margin: 20px auto;
+    align-items: center;
+}
+div.coop_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.bottom_box {
+    width: 90%;
+    display: flex;
+
+    margin: 0 auto;
+    /* margin: 3em 0 1em 0; */
+
+    justify-content: center;
+    align-items: center;
+}
+div.bottom_box2 {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    /* margin: 3em 0 1em 0; */
+
+    justify-content: center;
+    align-items: center;
+}
+div.one_igbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* div.two_igbox {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+
+    margin: 30px auto;
+    justify-content: space-between;
+} */
+/* a.img {
+    width: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+} */
+.ig1 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig2 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig3 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig4 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig5 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig6 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig7 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig8 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig9 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.ig10 > a.img > img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.ig1 {
+    margin: 20px 20px;
+}
+
+.ig2 {
+    margin: 20px 20px;
+}
+.ig3 {
+    margin: 20px 20px;
+}
+.ig4 {
+    margin: 20px 20px;
+}
+.ig5 {
+    margin: 20px 20px;
+}
+
+.ig6 {
+    margin: 20px 20px;
+}
+
+.ig7 {
+    margin: 20px 20px;
+}
+.ig8 {
+    margin: 20px 20px;
+}
+.ig9 {
+    margin: 20px 20px;
+}
+.ig10 {
+    margin: 20px 20px;
+}
+.igtext {
+    margin-top: 10px;
+}
+/* 
+===========================rwd=========================== */
+
+@media (max-width: 992px) {
+    div.about_text {
+        font-size: 25px;
+    }
+    div.name {
+        font-size: 18px;
+        color: #637aad;
+    }
+    div.text1 {
+        line-height: 25px;
+    }
+    div.text2 {
+        line-height: 25px;
+    }
+    div.text3 {
+        line-height: 25px;
+    }
+    div.text4 {
+        line-height: 25px;
+    }
+    div.text5 {
+        line-height: 25px;
+    }
+    div.photo {
+        width: 60%;
+    }
+}
+@media (max-width: 768px) {
+    div.top_box {
+        flex-direction: column;
+    }
+    div.left_box {
+        width: 90%;
+        margin: 0 auto;
+    }
+    div.right_box {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+/* @media (max-width: 376px) {
+    .text2 {
+        line-height: 30px;
+    }
+    .text3 {
+        line-height: 30px;
+    }
+    .text4 {
+        line-height: 30px;
+    }
+    .text5 {
+        line-height: 30px;
+    }
+} */

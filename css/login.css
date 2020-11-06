@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.loginphoto {
+    background-image: url(../imag/sky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 726px; */
+    width: 80%;
+    height: 130px;
+    display: flex;
+    margin: 50px auto auto auto;
+    position: relative;
+}
+div.text_rec {
+    margin: 0 auto;
+}
+div.login_text {
+    width: 100%;
+    height: 60px;
+    font-size: 40px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: 40px auto;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+}
+
+/* 登入會員 */
+
+div.loginsec {
+    /* width: 45%; */
+    /* width: 726px; */
+    width: 55%;
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+div.logintitle {
+    width: 50%;
+}
+div.title1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+}
+
+/* 帳號 */
+div.login_group {
+    /* vertical-align: center; */
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div.login_group > input {
+    width: 280px;
+    /* width: 100%; */
+    height: 30px;
+    margin: 10px auto 0px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* 密碼 */
+
+div.login_group2 {
+    /* vertical-align: center; */
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+div.login_group2 > input {
+    width: 280px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* 忘記密碼 */
+
+div.other {
+    display: flex;
+    /* padding: 0px 30px 0px 30px; */
+    width: 65%;
+    margin: 0 auto;
+}
+
+div.other > a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+/* sign */
+div.bt_sign {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+div.bt_sign > button {
+    border: 0;
+    background-color: #e4bed1;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+div.bt_sign > button:hover {
+    color: #e4bed1;
+    background-color: #fff;
+    border: 2px #e4bed1 solid;
+}
+/* 加入會員 */
+div.addtitle {
+    /* width: 340px; */
+    width: 50%;
+}
+
+div.title2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 信箱 */
+div.email {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div.email > input {
+    width: 280px;
+    height: 30px;
+    margin: 10px auto 0px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* 帳號 */
+
+div.add_group {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+div.add_group > input {
+    width: 280px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* 密碼 */
+
+div.add_group2 {
+    /* vertical-align: center; */
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+div.add_group2 > input {
+    width: 280px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    div.loginsec {
+        flex-direction: column;
+    }
+    div.logintitle {
+        width: 100%;
+    }
+    div.addtitle {
+        width: 100%;
+    }
+    div.other {
+    }
+}

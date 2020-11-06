@@ -1,0 +1,716 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    /* background-color: #ccb597; */
+    background-color: #ffffff;
+}
+body {
+    background-color: rgb(247, 240, 234);
+}
+
+div.magtitlebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+div.magtitle {
+    display: flex;
+    background-color: #7893ad;
+    color: #fed699;
+    font-size: 28px;
+    font-weight: bold;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    width: 230px;
+    height: 50px;
+}
+
+div.hot_text_rec {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+div.hot_text_page {
+    font-size: 25px;
+
+    width: 120px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    background-color: rgb(240, 225, 206);
+}
+
+div.hotpage {
+    width: 80%;
+    margin: 20px auto 20px;
+    display: flex;
+}
+
+div.hot_photo1 {
+    width: 99%;
+    margin-top: 5px;
+}
+div.hot_font1 {
+    /* margin-top: 20px; */
+    width: 100%;
+}
+
+div.hot_font1 > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    line-height: 30px;
+}
+
+div.date1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+div.hot_two {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    /* width: 100%; */
+    /* flex-direction: column; */
+}
+div.hot_two2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    /* flex-direction: column; */
+}
+
+div.left_rec {
+    width: 50%;
+}
+
+div.right_rec {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    margin-left: 17px;
+}
+
+div.hot_two > a {
+    width: 33%;
+    margin-bottom: 30px;
+}
+div.hot_two2 > a {
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+div.hottext_a {
+    margin-left: 10px;
+    /* text-decoration: none; */
+}
+div.hottext_a > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+div.date2 {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: rgb(110, 110, 110);
+}
+
+div.hottext_b {
+    margin-left: 10px;
+    /* text-decoration: none; */
+}
+div.hottext_b > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+div.date3 {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: rgb(110, 110, 110);
+}
+
+div.border1 {
+    font-size: 0px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+div.hot_font2 {
+    width: 60%;
+}
+
+/* 第二部分 濾鏡 */
+
+div.hot_text_rec2 {
+    width: 80%;
+    margin: 50px auto;
+}
+div.hot_text_page2 {
+    font-size: 25px;
+    /* min-width: 1215.35px; */
+    width: 170px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    background-color: rgb(240, 225, 206);
+    /* width: 80%; */
+
+    /* border-bottom: 1px solid #464444; */
+}
+
+div.filter {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+/* 第一張 */
+
+div.filter_photo1 {
+    width: 24%;
+}
+
+div.filter_date1 {
+    margin: 7px auto;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+div.filter_font1 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+/* 第二張 */
+
+div.filter_photo2 {
+    width: 24%;
+}
+
+div.filter_date2 {
+    margin: 7px auto;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+div.filter_font2 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+/* 第三張 */
+
+div.filter_photo3 {
+    width: 24%;
+}
+
+div.filter_date3 {
+    margin: 7px auto;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+div.filter_font3 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+/* 第四張 */
+div.filter_photo4 {
+    width: 24%;
+}
+
+div.filter_date4 {
+    margin: 7px auto;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+div.filter_font4 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+p.page_more {
+    font-size: 17px;
+
+    margin: 15px auto 40px auto;
+    width: 80%;
+    text-align: right;
+}
+p.page_more > a {
+    text-decoration: none;
+    font-family: 'Source Serif Pro';
+    color: #000000;
+}
+p.page_more2 {
+    font-size: 17px;
+    margin: 15px auto;
+    width: 80%;
+    text-align: right;
+}
+p.page_more2 > a {
+    text-decoration: none;
+    font-family: 'Source Serif Pro';
+    color: #000000;
+}
+
+/* 第三部分 景點 */
+div.hot_text_rec3 {
+    width: 80%;
+    margin: 30px auto 20px auto;
+}
+div.hot_text_page3 {
+    font-size: 25px;
+    width: 170px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    background-color: rgb(240, 225, 206);
+    /* width: 80%; */
+
+    /* border-bottom: 1px solid #464444; */
+}
+
+div.local {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+div.local_bigbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 第一張 */
+div.local_photo1 {
+    width: 24%;
+}
+
+div.local_date1 {
+    margin: 7px auto;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+div.local_font1 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+/* 第二張 */
+div.local_photo2 {
+    width: 24%;
+}
+
+div.local_date2 {
+    margin: 7px auto;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+div.local_font2 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+/* 第三張 */
+
+div.local_photo3 {
+    width: 24%;
+}
+
+div.local_date3 {
+    margin: 7px auto;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+div.local_font3 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+/* 第四張 */
+div.local_photo4 {
+    width: 24%;
+}
+
+div.local_date4 {
+    margin: 7px auto;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+div.local_font4 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+div.the_div {
+    width: 80%;
+    margin: 30px auto auto auto;
+}
+
+div.the_divphoto {
+    box-sizing: border-box;
+
+    /* margin: ; */
+    height: 500px;
+    background-size: 1216px;
+    background-position: center;
+
+    /* border: 1px solid red; */
+    /* overflow-x: scroll; */
+
+    background-image: url('../imag/babababa.jpg');
+    background-repeat: no-repeat;
+
+    /* 元素區域內滑動則會跟著滑動。 */
+    background-attachment: fixed;
+}
+
+div.p_text {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    line-height: 400px;
+}
+
+#go_top {
+    width: 30px;
+    height: 30px;
+    background: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: #7893ad;
+    background-color: rgb(241, 241, 241);
+    border-radius: 50%;
+
+    font-size: 20px;
+    line-height: 1;
+    outline: none;
+    cursor: pointer;
+    border-width: 0px;
+
+    box-shadow: 3px 1px 1px #97badb;
+}
+
+/* ================ hover ================ */
+
+/* 熱門排行 */
+div.hot_photo1 {
+    transition: opacity 1s ease;
+}
+div.hot_photo1:hover .chez,
+div.hot_photo1:focus .chez {
+    opacity: 0.4;
+}
+div.hot_two {
+    transition: opacity 1s ease;
+}
+div.hot_two:hover .holy,
+div.hot_two:focus .holy {
+    opacity: 0.4;
+}
+div.hot_two2 {
+    transition: opacity 1s ease;
+}
+div.hot_two2:hover .holy,
+div.hot_two2:focus .holy {
+    opacity: 0.4;
+}
+
+/* 濾鏡文章部分 */
+div.local_photo1 {
+    transition: opacity 1s ease;
+}
+div.local_photo1:hover .chez,
+div.local_photo1:focus .chez {
+    opacity: 0.4;
+}
+div.local_photo2 {
+    transition: opacity 1s ease;
+}
+div.local_photo2:hover .chez,
+div.local_photo2:focus .chez {
+    opacity: 0.4;
+}
+div.local_photo3 {
+    transition: opacity 1s ease;
+}
+div.local_photo3:hover .chez,
+div.local_photo3:focus .chez {
+    opacity: 0.4;
+}
+div.local_photo4 {
+    transition: opacity 1s ease;
+}
+div.local_photo4:hover .chez,
+div.local_photo4:focus .chez {
+    opacity: 0.4;
+}
+
+/* 景點文章部分 */
+div.filter_photo1 {
+    transition: opacity 1s ease;
+}
+div.filter_photo1:hover .chez,
+div.filter_photo1:focus .chez {
+    opacity: 0.4;
+}
+
+div.filter_photo2 {
+    transition: opacity 1s ease;
+}
+div.filter_photo2:hover .chez,
+div.filter_photo2:focus .chez {
+    opacity: 0.4;
+}
+
+div.filter_photo3 {
+    transition: opacity 1s ease;
+}
+div.filter_photo3:hover .chez,
+div.filter_photo3:focus .chez {
+    opacity: 0.4;
+}
+
+div.filter_photo4 {
+    transition: opacity 1s ease;
+}
+div.filter_photo4:hover .chez,
+div.filter_photo4:focus .chez {
+    opacity: 0.4;
+}
+/* ========== RWD 部分 ========== */
+
+@media (max-width: 1200px) {
+    div.magtitle {
+        font-size: 23px;
+        width: 180px;
+        height: 40px;
+    }
+
+    div.hot_text_page {
+        font-size: 20px;
+        width: 90px;
+    }
+    div.hot_photo1 {
+        width: 96%;
+    }
+
+    div.hot_text_page3 {
+        font-size: 20px;
+        width: 140px;
+    }
+
+    div.hot_text_page2 {
+        font-size: 20px;
+        width: 140px;
+    }
+    div.filter_font3 > a {
+        width: 100%;
+    }
+    #go_top {
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* div.local {
+        flex-wrap: wrap;
+        flex-direction: column;
+    } */
+
+    div.local_photo1 {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    div.local_photo2 {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    div.local_photo3 {
+        width: 48%;
+    }
+    div.local_photo4 {
+        width: 48%;
+    }
+
+    div.filter_photo1 {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    div.filter_photo2 {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    div.filter_photo3 {
+        width: 48%;
+    }
+    div.filter_photo4 {
+        width: 48%;
+    }
+
+    div.hottext_a > a {
+        font-size: 16px;
+    }
+
+    div.hot_font1 > a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    div.theboxa {
+        display: none;
+    }
+    div.hotpage {
+        flex-direction: column;
+    }
+
+    div.right_rec {
+        width: 100%;
+        margin: 0 auto;
+    }
+    div.hot_photo1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+    div.left_rec {
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+    div.hot_font1 > a {
+        font-size: 20px;
+    }
+    div.hot_two {
+        flex-direction: row;
+        width: 50%;
+        border: none;
+    }
+    div.hot_two > a {
+        width: 40%;
+    }
+    div.hot_two2 > a {
+        width: 40%;
+    }
+    div.hot_two2 {
+        flex-direction: row;
+        width: 50%;
+    }
+    /* div.hot_font2 > a {
+        width: 30%;
+    } */
+    div.border1 {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    div.hot_two {
+        width: 100%;
+    }
+    div.hot_two2 {
+        width: 100%;
+    }
+    div.hot_font1 > a {
+        font-size: 18px;
+    }
+
+    div.local_photo1 {
+        width: 100%;
+    }
+    div.hot_photo1 {
+        margin: 10px auto;
+    }
+    div.local_photo2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    div.local_photo3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    div.local_photo4 {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    div.filter_photo1 {
+        width: 100%;
+    }
+
+    div.filter_photo2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    div.filter_photo3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    div.filter_photo4 {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    p.page_more2 {
+        font-size: 15px;
+    }
+    p.page_more {
+        font-size: 15px;
+    }
+    div.hot_text_rec3 {
+        margin: 20px auto 10px auto;
+    }
+    div.hot_text_rec2 {
+        margin: 20px auto 10px auto;
+    }
+}

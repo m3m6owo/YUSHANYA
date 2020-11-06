@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #dee2eb;
+
+    margin: 0 auto;
+    display: flex;
+    /* min-width: 1519.2px; */
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+
+div.main_footer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.copy_text {
+    letter-spacing: 1px;
+}
+
+div.totalicon {
+    display: flex;
+    width: 120px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+div.footer_icon1 {
+    width: 40px;
+}
+
+div.footer_icon2 {
+    width: 40px;
+}
+
+/* ======================= RWD ======================= */
+
+@media (max-width: 667px) {
+    .footer {
+        margin-bottom: 40px;
+    }
+    div.copy_text {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    div.totalicon {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .footer {
+        margin-bottom: 40px;
+    }
+    div.copy_text {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    div.totalicon {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .footer {
+        margin-bottom: 40px;
+    }
+    div.copy_text {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    div.totalicon {
+        display: none;
+    }
+}

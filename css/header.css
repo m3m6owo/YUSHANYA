@@ -1,0 +1,198 @@
+header {
+    width: 100%;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+}
+
+.nav_box {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.nav_right_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_box {
+    width: 80px;
+    height: 80px;
+}
+.search {
+    /* width: 30%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 60px;
+}
+
+.contectus {
+    margin-right: 60px;
+}
+
+.custom_select {
+    width: 160px;
+}
+
+.search_icon {
+    width: 22px;
+    display: inline-block;
+    font-size: 0px;
+}
+.custom_select {
+    margin-right: 10px;
+}
+.nav_text {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px 0 60px;
+}
+.nav_text > a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+    font-size: 16px;
+    /* margin-right: 20px; */
+}
+.icon {
+    display: flex;
+    width: 30%;
+
+    justify-content: space-around;
+    font-size: 1.6rem;
+    align-items: center;
+}
+.icon > a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.chat_icon {
+    display: none;
+}
+.member,
+.heart {
+    width: 30px;
+}
+
+/* 未點擊過的連結 */
+a.link_style,
+a.contectus {
+    color: black;
+}
+/* 已點擊過的連結 */
+a.link_style:visited,
+a.contectus:visited {
+    color: black;
+}
+/* 滑鼠移過去之後 */
+a.link_style:hover,
+a.contectus:hover {
+    color: #7eb8eb;
+}
+
+/* 滑鼠按壓下去後，還沒放開 */
+a.link_style:active,
+a.contectus:active {
+    color: rgb(56, 56, 128) 8eb;
+}
+
+.link_style::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+
+    background: #a5a5a5;
+    transition-duration: 0.5s;
+}
+
+.link_style:hover::after {
+    width: 100%;
+    transition: 0.6s;
+}
+
+.contectus::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+
+    background: #a5a5a5;
+    transition-duration: 0.5s;
+}
+
+.contectus:hover::after {
+    width: 100%;
+    transition: 0.6s;
+}
+/* @media (max-width: 940px) { */
+
+@media (max-width: 1200px) {
+    header {
+        padding: 10px 0 0 0;
+    }
+    .icon {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        /* z-index: 10; */
+        z-index: 99;
+        justify-content: space-around;
+        padding: 5px;
+        border-top: 1px solid rgb(82, 80, 80);
+        background-color: rgb(255, 255, 255);
+        height: auto;
+    }
+    .icon > a {
+    }
+    .nav_text {
+        width: 40%;
+    }
+    .contectus {
+        display: none;
+    }
+    .chat_icon {
+        display: block;
+        width: 30px;
+        background-size: contain;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav_right_box {
+        flex-direction: column;
+        justify-content: space-around;
+        width: 70%;
+    }
+    .search {
+        order: 2;
+    }
+    .nav_text {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 376px) {
+    .custom_select {
+        width: 110px;
+    }
+    .logo_box {
+        width: 70px;
+        height: 70px;
+    }
+    .search {
+        margin-right: 20px;
+    }
+    .nav_text {
+        margin-right: 20px;
+    }
+}

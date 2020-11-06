@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.con_box {
+    /* min-width: 1519.2px; */
+}
+div.shanlistphoto {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    /* min-width: 1520px; */
+}
+div.gmail {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+div.gmail > p {
+    font-size: 30px;
+    font-weight: bold;
+}
+div.ig_user {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+div.ig_user > p {
+    font-size: 30px;
+    font-weight: bold;
+}
+div.bbb {
+    width: 130px;
+    margin: 22px auto;
+    background-color: #e8dccd;
+    border-radius: 10px;
+    color: #535353;
+    font-size: 15px;
+    padding: 10px;
+}
+
+@media (max-width: 1028px) {
+    .shanlistphoto {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    div.gmail > p {
+        font-size: 20px;
+    }
+    div.gmail {
+        width: 100%;
+    }
+    div.ig_user > p {
+        font-size: 20px;
+        margin: 30px auto 0 auto;
+    }
+    div.ig_user {
+        width: 100%;
+    }
+    div.shanlistphoto {
+        width: 60%;
+    }
+    div.shanig {
+        width: 60%;
+        margin: 20px auto 0 auto;
+    }
+}
