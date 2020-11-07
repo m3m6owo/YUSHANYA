@@ -89,7 +89,7 @@ div.recommend_text {
     font-size: 23px;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-bottom: 50px;
     width: 230px;
     height: 50px;
@@ -101,7 +101,7 @@ div.recommend_text {
         font-size: 20px;
         width: 200px;
         height: 40px;
-        margin-top: 45px;
+        margin-top: 55px;
         margin-bottom: 35px;
     }
 }
@@ -441,19 +441,19 @@ div.photobox {
     width: 90%;
     margin: 30px auto;
     display: flex;
-    justify-content: space-between;
-
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-family: 'Source Serif Pro', '微軟正黑體';
 }
 
-div.photobox2 {
+/* div.photobox2 {
     width: 90%;
     margin: 0px auto 0px auto;
     display: flex;
     justify-content: space-between;
 
     font-family: 'Source Serif Pro', '微軟正黑體';
-}
+} */
 .box_photo1,
 .box2_photo2,
 .box3_photo3,
@@ -502,6 +502,7 @@ div.hype_local {
 div.box1 {
     width: 307.63px;
     background-color: #f2eee5;
+    margin-bottom: 30px;
 }
 
 .hastag_hype {
@@ -558,6 +559,7 @@ div.bbar_local {
 div.box2 {
     width: 307.63px;
     background-color: #f2eee5;
+    margin-bottom: 30px;
 }
 
 .hastag_bar {
@@ -614,6 +616,7 @@ div.neon_local {
 div.box3 {
     width: 307.63px;
     background-color: #f2eee5;
+    margin-bottom: 30px;
 }
 
 .hastag_neon {
@@ -670,6 +673,7 @@ div.paper_local {
 div.box4 {
     width: 307.63px;
     background-color: #f2eee5;
+    margin-bottom: 30px;
 }
 .hastag_paper {
     display: flex;
@@ -725,7 +729,7 @@ div.cafe_local {
 }
 div.box5 {
     width: 307.63px;
-
+    margin-bottom: 30px;
     background-color: #f2eee5;
 }
 
@@ -784,6 +788,7 @@ div.mili_local {
 div.box6 {
     width: 307.63px;
     background-color: #f2eee5;
+    margin-bottom: 30px;
 }
 
 .hastag_mili {
@@ -841,6 +846,7 @@ div.ku_local {
 div.box7 {
     width: 307.63px;
     background-color: #f2eee5;
+    margin-bottom: 30px;
 }
 
 .hastag_ku {
@@ -898,6 +904,7 @@ div.fly_local {
 div.box8 {
     width: 307.63px;
     background-color: #f2eee5;
+    margin-bottom: 30px;
 }
 
 .hastag_fly {
@@ -944,19 +951,24 @@ div.popular_text {
     font-family: 'Source Serif Pro';
 }
 
+@media (max-width: 576px) {
+    div.popular_text {
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 45px;
+    }
+}
+/* =========================================================== */
 div.bbb {
     width: 90%;
     background-color: #eac9b8;
     margin: 0 auto 40px auto;
-
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-
-    /* height: 640px; */
     font-family: 'Source Serif Pro', '微軟正黑體';
-}
-div.bbb_rec {
-    /* border: 1px solid black; */
 }
 
 div.bbbtext_total {
@@ -964,7 +976,7 @@ div.bbbtext_total {
 }
 
 div.card1 {
-    width: 400px;
+    width: 350px;
     overflow: hidden;
     margin-top: 8px;
 }
@@ -990,17 +1002,8 @@ div.bbb_text {
 
 /* no.2 */
 
-div.ccc_rec {
-    /* border: 1px solid black; */
-}
-
-div.ccctext_total {
-    /* background-color: #f2eee5;
-    border-radius: 30px; */
-}
-
 div.card2 {
-    width: 400px;
+    width: 350px;
     overflow: hidden;
     margin-top: 8px;
 }
@@ -1027,7 +1030,7 @@ div.ccc_text {
 /* no.3 */
 
 div.card3 {
-    width: 400px;
+    width: 350px;
     overflow: hidden;
     margin-top: 8px;
 }
@@ -1172,4 +1175,12 @@ div.card3:focus .hypephoto1 {
     border-width: 0px;
 
     box-shadow: 3px 1px 1px #97badb;
+}
+
+/* ========================= gotop ========================= */
+
+@media (max-width: 1200px) {
+    #go_top {
+        bottom: 50px;
+    }
 }
