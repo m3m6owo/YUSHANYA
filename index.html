@@ -137,7 +137,7 @@
                             <div class="rec_local"><img src="./imag/wedding-location.png" /></div>
                             <div class="rec_name">Chez Moi</div>
                             <div class="rec_heart">
-                                <a href="#"><img src="./imag/spaceheart.png" id="heart" alt="heart" /></a>
+                                <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                             </div>
                         </div>
                         <div class="textall">
@@ -199,7 +199,7 @@
                         <div class="hype_icon"><img src="./imag/wedding-location.png" /></div>
                         <div class="hype">嗨波廚房 HYPE</div>
                         <div class="rec_heart">
-                            <a href="#" target="_self"><img src="./imag/spaceheart.png" alt="heart" /></a>
+                            <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                         </div>
                     </div>
                     <div class="box1_totaltext">
@@ -229,7 +229,7 @@
                         <div class="bbar_icon"><img src="./imag/wedding-location.png" /></div>
                         <div class="bbar">Opium Champagne Bar</div>
                         <div class="rec_heart">
-                            <a href="#" target="_self"><img src="./imag/spaceheart.png" alt="heart" /></a>
+                            <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                         </div>
                     </div>
                     <div class="box2_totaltext">
@@ -260,7 +260,7 @@
                         <div class="neon_icon"><img src="./imag/wedding-location.png" /></div>
                         <div class="neon">負壹 Bar</div>
                         <div class="rec_heart">
-                            <a href="#" target="_self"><img src="./imag/spaceheart.png" alt="heart" /></a>
+                            <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                         </div>
                     </div>
                     <div class="box3_totaltext">
@@ -288,7 +288,7 @@
                         <div class="paper_icon"><img src="./imag/wedding-location.png" /></div>
                         <div class="paper">PAPER ST. COFFEE</div>
                         <div class="rec_heart">
-                            <a href="#" target="_self"><img src="./imag/spaceheart.png" alt="heart" /></a>
+                            <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                         </div>
                     </div>
                     <div class="box4_totaltext">
@@ -323,7 +323,7 @@
                     <div class="cafe_icon"><img src="./imag/wedding-location.png" /></div>
                     <div class="cafe">Antique.cafe</div>
                     <div class="rec_heart">
-                        <a href="#" target="_self"><img src="./imag/spaceheart.png" alt="heart" /></a>
+                        <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                     </div>
                 </div>
                 <div class="box5_totaltext">
@@ -351,7 +351,7 @@
                     <div class="mili_icon"><img src="./imag/wedding-location.png" /></div>
                     <div class="mili">卡托米利庭園咖啡</div>
                     <div class="rec_heart">
-                        <a href="#" target="_self"><img src="./imag/spaceheart.png" alt="heart" /></a>
+                        <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                     </div>
                 </div>
                 <div class="box6_totaltext">
@@ -381,7 +381,7 @@
                     <div class="ku_icon"><img src="./imag/wedding-location.png" /></div>
                     <div class="ku">古巴娜咖啡</div>
                     <div class="rec_heart">
-                        <a href="#" target="_self"><img src="./imag/spaceheart.png" alt="heart" /></a>
+                        <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                     </div>
                 </div>
                 <div class="box7_totaltext">
@@ -408,7 +408,7 @@
                     <div class="fly_icon"><img src="./imag/wedding-location.png" /></div>
                     <div class="fly">霞飛音樂城堡</div>
                     <div class="rec_heart">
-                        <a href="#" target="_self"><img src="./imag/spaceheart.png" alt="heart" /></a>
+                        <a><img src="./imag/spaceheart.png" id="heart" class="heart" title="加入收藏" /></a>
                     </div>
                 </div>
                 <div class="box8_totaltext">
@@ -585,20 +585,16 @@
         </script>
 
         <script>
-            var heart
-            function switchFavorite() {
-                if (heart.title == '加入收藏♡') {
-                    heart.src = './imag/heart (3).png'
-                    heart.title = '取消收藏'
-                } else {
-                    heart.src = './imag/spaceheart.png'
-                    heart.title = '加入收藏♡'
-                }
-            }
-
             function init() {
-                heart = document.getElementById('heart')
-                heart.onclick = switchFavorite
+                $('.heart').click(function () {
+                    if ($(this).attr('title') == '加入收藏') {
+                        $(this).attr('src', './imag/heart (3).png')
+                        $(this).attr('title', '取消收藏')
+                    } else {
+                        $(this).attr('src', './imag/spaceheart.png')
+                        $(this).attr('title', '加入收藏')
+                    }
+                })
             }
             window.onload = init
         </script>
