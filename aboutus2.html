@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="./css/header.css" />
         <link rel="stylesheet" href="./css/aboutus2.css" />
         <link rel="stylesheet" href="./css/footer.css" />
+        <script src="./jquery/jquery-3.5.1.min.js"></script>
+        <script src="./jquery/jQuery-ui.js"></script>
+        <script src="./tools/facebox.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet" />
 
     </head>
@@ -109,66 +112,79 @@
                             <a class="img" href="https://www.instagram.com/" target="_blank"
                                 ><img src="./imag/appshare.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@app_what_i_use</div>
+                            <a href="./imag/app.png" class="igtext">@app_what_i_use</a>
+                            <!-- <div class="igtext">@app_what_i_use</div> -->
                         </div>
                         <div class="ig2">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
                                 ><img src="./imag/popdaily.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@popdaily</div>
+                            <a href="./imag/pop.png" class="igtext">@popdaily</a>
+                            <!-- <div class="igtext">@popdaily</div> -->
                         </div>
+
                         <div class="ig3">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
-                                ><img src="./imag/want.jpg" alt="appshare"
+                                ><img src="./imag/vsco.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@wantogo</div>
+                            <a href="./imag/vsco.png" class="igtext">@vsco</a>
+                            <!-- <div class="igtext">@vsco</div> -->
                         </div>
+
                         <div class="ig4">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
-                                ><img src="./imag/howsay.jpg" alt="appshare"
+                                ><img src="./imag/niusnews.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@howsaylove</div>
+                            <a href="./imag/niu.png" class="igtext">@niusnews</a>
+                            <!-- <div class="igtext">@niusnews</div> -->
                         </div>
+
                         <div class="ig5">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
-                                ><img src="./imag/where.jpg" alt="appshare"
+                                ><img src="./imag/girlstyle.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@tw_wheretogo</div>
+                            <a href="./imag/girls.png" class="igtext">@girlstyle</a>
+                            <!-- <div class="igtext">@girlstyle</div> -->
                         </div>
 
                         <div class="ig6">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
-                                ><img src="./imag/vsco.jpg" alt="appshare"
+                                ><img src="./imag/want.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@vsco</div>
+                            <a href="./imag/want.png" class="igtext">@wantogo</a>
+                            <!-- <div class="igtext">@wantogo</div> -->
                         </div>
 
                         <div class="ig7">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
                                 ><img src="./imag/mook_travel_plus.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@mook_travel</div>
+                            <a href="./imag/mook.png" class="igtext">@mook_travel</a>
+                            <!-- <div class="igtext">@mook_travel</div> -->
                         </div>
 
                         <div class="ig8">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
-                                ><img src="./imag/girlstyle.jpg" alt="appshare"
+                                ><img src="./imag/where.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@girlstyle</div>
+                            <a href="./imag/twwhere.png" class="igtext">@tw_wheretogo</a>
+                            <!-- <div class="igtext">@tw_wheretogo</div> -->
                         </div>
 
                         <div class="ig9">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
-                                ><img src="./imag/niusnews.jpg" alt="appshare"
+                                ><img src="./imag/howsay.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@niusnews</div>
+                            <a href="./imag/howsay.png" class="igtext">@howsaylove</a>
+                            <!-- <div class="igtext">@howsaylove</div> -->
                         </div>
 
                         <div class="ig10">
                             <a class="img" href="https://www.instagram.com/" target="_blank"
                                 ><img src="./imag/snapit.jpg" alt="appshare"
                             /></a>
-                            <div class="igtext">@snapit</div>
+                            <a href="./imag/snapit.png" class="igtext">@snapit</a>
+                            <!-- <div class="igtext">@snapit</div> -->
                         </div>
                       </div>
                   </div>
@@ -189,5 +205,14 @@
               </div>
           </div>
       </div>
+    <script>
+        $(document).ready(function () {
+            $('a').facebox({
+                opacity: 0.2,
+                overlay: true,
+                closeImage: '../imag/close.png',
+            });
+        });
+    </script>
     </body>
 </html>
