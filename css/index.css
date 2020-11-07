@@ -44,6 +44,11 @@ div.serve_box {
     width: 30px;
     display: flex;
 }
+.icon_local_change1,
+.icon_local_change2,
+.icon_local_change3 {
+    display: none;
+}
 div.local {
     align-items: center;
     display: flex;
@@ -64,17 +69,46 @@ div.local {
     margin-left: 55px;
     width: 30px;
 }
-
-@media (max-width: 576px) {
-    .icon_local {
-        width: 25px;
+@media (max-width: 768px) {
+    .icon_local_change1,
+    .icon_local_change2,
+    .icon_local_change3 {
+        width: 30px;
+        display: flex;
     }
-    .icon_local_2 {
-        width: 25px;
-    }
+    .icon_local,
+    .icon_local_2,
     .icon_local_3 {
-        margin-left: 45px;
-        width: 25px;
+        display: none;
+    }
+
+    .icon_local_change3 {
+        margin-left: 35px;
+    }
+}
+@media (max-width: 576px) {
+    .icon_local_change1 > img {
+        /* width: 25px; */
+        /* margin-left: 20px; */
+        margin-bottom: 10px;
+    }
+    .icon_local_change2 > img {
+        /* width: 25px; */
+        margin-bottom: 5px;
+    }
+    .icon_local_change3 {
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .local_2 {
+        font-size: 14px;
+        flex-direction: column;
+    }
+    .local {
+        font-size: 14px;
+        flex-direction: column;
     }
 }
 /* =================recommend================= */
@@ -1055,6 +1089,54 @@ div.ddd_text {
     text-align: justify;
     line-height: 30px;
     padding: 10px;
+}
+
+/* ==========================RWD========================== */
+@media (max-width: 576px) {
+    div.card3 {
+        width: 300px;
+        margin-top: 20px;
+    }
+    div.ddd_onaname {
+        font-size: 20px;
+        width: 300px;
+        margin: 5px auto 5px auto;
+    }
+    div.ddd_text {
+        font-size: 16px;
+        width: 300px;
+        margin: 5px auto 20px auto;
+    }
+    div.card2 {
+        width: 300px;
+        margin-top: 15px;
+    }
+    div.ccc_onaname {
+        font-size: 20px;
+        width: 300px;
+        margin: 5px auto 5px auto;
+    }
+    div.ccc_text {
+        font-size: 16px;
+        width: 300px;
+        margin: 5px auto 5px auto;
+    }
+    div.card1 {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    div.bbb_onaname {
+        font-size: 20px;
+        width: 300px;
+        margin: 5px auto 5px auto;
+    }
+
+    div.bbb_text {
+        font-size: 16px;
+        width: 300px;
+        margin: 5px auto 5px auto;
+    }
 }
 
 /* ==========================拍立得hover========================== */
