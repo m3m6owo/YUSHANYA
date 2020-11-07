@@ -3,6 +3,8 @@ header {
     /* position: fixed; */
     position: sticky;
     top: 0;
+    background-color: white;
+    z-index: 96;
 }
 
 .nav_box {

@@ -26,7 +26,7 @@ div.rec_right {
     width: 600px;
     height: 600px;
     /* height: 60%;
-    width: 60%; */
+  width: 60%; */
 }
 div.rec_left {
     width: 600px;
@@ -66,6 +66,17 @@ div.rec_title {
     font-size: 15px;
     padding: 10px;
     /* min-width: 607.69px; */
+
+    /* height: 100px; */
+}
+
+.filter_text {
+    padding: 10px;
+}
+.filter_text > div {
+    /* padding: 15px; */
+    text-align: justify;
+    line-height: 30px;
 }
 .textall > div {
     /* padding: 15px; */
@@ -127,19 +138,22 @@ div.right_text2 > img {
     /* justify-content: space-around; */
     align-items: center;
     width: 100%;
-    /* height: 40px; */
+    height: 50px;
 }
 .right_hastag > a {
-    width: 80px;
+    width: 70px;
+    /* height: 30px; */
     color: #535353;
     background-color: #e8dccd;
     border-radius: 10px;
     text-decoration: none;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
     font-size: 14px;
     margin-right: 10px;
     margin-left: 10px;
+    align-content: center;
+    justify-content: center;
 }
 
 /* ===================slick===================== */
@@ -175,36 +189,53 @@ img {
     }
     .right_text2 {
         font-size: 14px;
+        letter-spacing: 0px;
     }
-    div.right_text2 > img {
-        width: 20px;
-    }
+
     .right_text3 {
         font-size: 14px;
+        letter-spacing: 0px;
     }
     .right_text4 {
         font-size: 14px;
+        letter-spacing: 0px;
     }
     .right_text5 {
         font-size: 14px;
+        letter-spacing: 0px;
     }
     .right_text6 {
         font-size: 14px;
+        letter-spacing: 0px;
     }
     .right_text7 {
         font-size: 14px;
+        letter-spacing: 0px;
     }
-    .right_hastag {
-        display: flex;
-        /* justify-content: space-around; */
-        align-items: center;
-        width: 60%;
+
+    .filter_text {
+        height: 150px;
+        overflow: auto;
     }
-    .right_hastag > a {
-        width: 80px;
-        color: #535353;
-        background-color: #e8dccd;
-        font-size: 14px;
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #fff;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #ddd;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ccc;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #d2cac0;
     }
 
     div.rec_title {
@@ -214,22 +245,95 @@ img {
     }
 
     .add {
-        margin: 20px 0 5px 0;
+        margin: 25px 0 10px 0;
+    }
+
+    .right_hastag {
+        height: 70px;
     }
 }
 
-@media (max-width: 1354px) {
+@media (max-width: 1200px) {
+    div.recall {
+        width: 70%;
+    }
+    div.rec_left {
+        width: 50%;
+    }
+    div.right_text2 > img {
+        width: 20px;
+    }
+    .filter_text {
+        height: 70px;
+        overflow: auto;
+    }
+    div.rec_right {
+        background-color: #e9e6df;
+        /* width: 450px;
+        height: 420px; */
+        width: 80%;
+        height: 93.5%;
+    }
+    .add {
+        margin: 15px 0 0px 0;
+        font-size: 13px;
+    }
+    div.right_text2 {
+        margin: 10px 0;
+    }
+    .right_hastag {
+        height: 55px;
+    }
+    .right_hastag > a {
+        width: 60px;
+
+        padding: 1px;
+    }
+    div.rec_left {
+        /* width: 420px;
+        height: 420px; */
+        height: 50%;
+        width: 50%;
+    }
+}
+@media (max-width: 1175px) {
     div.recall {
         flex-direction: column;
+        width: 90%;
     }
     div.rec_left {
         margin: 0 auto;
     }
-    div.rec_photo {
-        width: 500px;
+    .filter_text {
+        height: 100px;
+        overflow: auto;
     }
     div.rec_right {
+        margin: 10px auto;
+        width: 90%;
+        height: 100%;
+    }
+
+    div.rec_left {
         margin: 0 auto;
-        width: 60%;
+        width: 100%;
+        height: 100%;
+    }
+
+    div.rec_photo {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .add {
+        margin: 15px 0 0px 0;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    div.rec_left {
+        margin: 0 auto;
+        width: 90%;
+        height: 100%;
     }
 }

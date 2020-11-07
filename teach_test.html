@@ -6,9 +6,8 @@
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/header.css" />
         <link rel="stylesheet" href="./css/footer.css" />
-        <link rel="stylesheet" href="./css/teach.css" />
+        <link rel="stylesheet" href="./css/teach_test2.css" />
         <link rel="stylesheet" href="./css/all.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet" />
 
         <link rel="stylesheet" type="text/css" href="./vendors/slick-1.8.1/slick/slick-theme.css" />
         <link rel="stylesheet" type="text/css" href="./vendors/slick-1.8.1/slick/slick.css" />
@@ -115,33 +114,34 @@
                                 ：站在庭院的粉紅色房子前，要拍到草地和天空，也要拍整身，這樣畫面比例比較好。
                             </div>
                             <div class="right_text3">☆ 調色如下：使用Adobe Lightroom （Lightroom cc）</div>
-                            <div class="right_text4"><img src="./imag/exposure.png" /> 曝光Exposure：-0.1</div>
 
-                            <div class="right_text5">
-                                <img src="./imag/love (3).png" /> 黑色Blacks：明度Luminance-20
+                            <div class="filter_text">
+                                <div class="right_text4"><img src="./imag/exposure.png" /> 曝光Exposure：-0.1</div>
+                                <div class="right_text5">
+                                    <img src="./imag/love (3).png" /> 黑色Blacks：明度Luminance-20
+                                </div>
+                                <div class="right_text6">
+                                    <img src="./imag/redlove.png" /> 紅色Red：色相Hue-14／飽和度Saturation+10
+                                </div>
+                                <div class="right_text7">
+                                    <img src="./imag/orgheart.png" /> 橘色Orange：色相Hue-14／明度Luminance+27
+                                </div>
+                                <div class="right_text7">
+                                    <img src="./imag/love (2).png" /> 黃Yellow：色相Hue-18／明度Luminance+50
+                                </div>
+                                <div class="right_text7">
+                                    <img src="./imag/greenheart.png" /> 綠色Green：色相Hue-10／明度Luminance+50
+                                </div>
+                                <div class="right_text7">
+                                    <img src="./imag/blueheart.png" /> 藍色Blue：色相Hue-20／明度Luminance+15
+                                </div>
                             </div>
-                            <div class="right_text6">
-                                <img src="./imag/redlove.png" /> 紅色Red：飽和度Saturation+10／明度Luminance+13
-                            </div>
-                            <div class="right_text7">
-                                <img src="./imag/orgheart.png" /> 橘色Orange：色相Hue-14／明度Luminance+27
-                            </div>
-                            <div class="right_text7">
-                                <img src="./imag/love (2).png" /> 黃Yellow：色相Hue-18／明度Luminance+50
-                            </div>
-                            <div class="right_text7">
-                                <img src="./imag/greenheart.png" /> 綠色Green：色相Hue-10／明度Luminance+50
-                            </div>
-                            <div class="right_text7">
-                                <img src="./imag/blueheart.png" /> 藍色Blue：色相Hue-20／明度Luminance+15
-                            </div>
-
                             <div class="add">地址：新竹縣新豐鄉瑞興村5鄰崁頭88-2號</div>
-                        </div>
-                        <div class="right_hastag">
-                            <a href="./sele.html" target="_blank" rel="noreferrer"># 新竹</a>
-                            <a href="./sele.html" target="_blank" rel="noreferrer"># 歐風</a>
-                            <a href="./sele.html" target="_blank" rel="noreferrer"># 渡假風</a>
+                            <div class="right_hastag">
+                                <a href="./sele.html" target="_blank" rel="noreferrer"># 新竹</a>
+                                <a href="./sele.html" target="_blank" rel="noreferrer"># 歐風</a>
+                                <a href="./sele.html" target="_blank" rel="noreferrer"># 渡假風</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -180,14 +180,14 @@
                     arrows: true, //關閉 左右箭頭
                     responsive: [
                         //事件條件
-                        // {
-                        //     breakpoint: 1200,
-                        //     settings: {
-                        //         arrows: false,
-                        //         centerMode: true,
-                        //         slidesToShow: 4,
-                        //     },
-                        // },
+                        {
+                            breakpoint: 1176,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                slidesToShow: 4,
+                            },
+                        },
                         // {
                         //     breakpoint: 1354,
                         //     settings: {
@@ -204,22 +204,22 @@
                         //         slidesToShow: 3,
                         //     },
                         // },
-                        // {
-                        //     breakpoint: 768,
-                        //     settings: {
-                        //         arrows: false,
-                        //         centerMode: true,
-                        //         slidesToShow: 2,
-                        //     },
-                        // },
-                        // {
-                        //     breakpoint: 576,
-                        //     settings: {
-                        //         arrows: false,
-                        //         centerMode: true,
-                        //         slidesToShow: 1,
-                        //     },
-                        // },
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                arrows: false,
+                                // centerMode: true,
+                                slidesToShow: 2,
+                            },
+                        },
+                        {
+                            breakpoint: 576,
+                            settings: {
+                                arrows: false,
+                                // centerMode: true,
+                                slidesToShow: 1,
+                            },
+                        },
                     ],
                 })
             })
