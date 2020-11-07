@@ -66,6 +66,9 @@ div.local {
 }
 
 @media (max-width: 576px) {
+    .icon_local {
+        width: 25px;
+    }
     .icon_local_2 {
         width: 25px;
     }
