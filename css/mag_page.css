@@ -184,10 +184,10 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     }
 }
 @media (max-width: 667px) {
-    div.logo_box > img {
+    /* div.logo_box > img {
         width: 85%;
-    }
-    .nav_right_box {
+    } */
+    /* .nav_right_box {
         width: 60%;
     }
     .custom_select {
@@ -199,7 +199,7 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     }
     .nav_text {
         margin-left: 50px;
-    }
+    } */
     div.title {
         font-size: 18px;
         line-height: 30px;
