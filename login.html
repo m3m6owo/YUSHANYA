@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./css/header.css" />
         <link rel="stylesheet" href="./css/login.css" />
         <link rel="stylesheet" href="./css/footer.css" />
+        <script src="./jquery/jquery-3.5.1.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     </head>
@@ -85,7 +86,7 @@
                 </div>
             </div>
         </div>
-
+        <div class="background"><ul id="ul-cir"></ul></div>
         <div class="loginbox">
             <div class="loginsec">
                 <div class="logintitle">
@@ -172,5 +173,32 @@
                 </div>
             </div>
         </div>
+        <script>
+            $(document).ready(function () {
+                for (var i = 0; i < 9; i++) {
+                    var rand = new Array() //rgb色彩值
+                    for (var j = 0; j < 3; j++) {
+                        rand[j] = Math.floor(Math.random() * 26 + 230) // 230 ~ 255
+                    }
+                    var op = Math.floor(Math.random() * 5 + 2) / 10 //均衡獲取rgba的透明度的隨機數
+                    var left = Math.floor(Math.random() * 100) + '%' //泡泡隨機分佈的距離
+                    var delay = Math.floor(Math.random() * 10) + 's' //每個泡泡出現推遲的時間
+                    var dur = Math.floor(Math.random() * 10 + 11) + 's' //泡泡完成一個週期所需要的時間
+                    var enlarge = Math.floor(Math.random() * 40 + 30) //泡泡擴大到的寬和高
+
+                    $('#ul-cir').append("<li class='li-cir'></li>") //增加一個泡泡
+                    $('#ul-cir li')
+                        .eq(i)
+                        .css('background', 'rgba(' + rand[0] + ',' + rand[1] + ',' + rand[2] + ',' + op + ')') //選取ul li中匹配的索引順序爲i的元素賦予背景顏色
+                    $('#ul-cir li')
+                        .eq(i)
+                        .css('border', 'rgba(' + rand[0] + ',' + rand[1] + ',' + rand[2] + ',' + 1 + ') 1px solid') //給泡泡加上邊框
+                    $('#ul-cir li').eq(i).css('left', left) //泡泡出現的距離值
+                    $('#ul-cir li').eq(i).css('animation-delay', delay) //泡泡出現推遲的時間
+                    $('#ul-cir li').eq(i).css('animation-duration', dur) //泡泡完成一個週期所需要的時間
+                    $('#ul-cir li').eq(i).css('width', enlarge).css('height', enlarge) //擴大泡泡
+                }
+            })
+        </script>
     </body>
 </html>

@@ -34,6 +34,55 @@ div.login_text {
     animation-iteration-count: 3;
 }
 
+div.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    background-size: 200% 200%;
+    animation: bjmove 30s infinite linear;
+}
+@keyframes bjmove {
+    /*背景移動動畫*/
+    from {
+        background-position: 0 200%;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+.li-cir {
+    list-style: none; /*去除ul li的默認樣式*/
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -160px;
+    animation: ppmove 15s infinite;
+}
+@keyframes ppmove {
+    /*泡泡移動動畫*/
+    0% {
+        opacity: 0.5;
+        transform: translateY(0px);
+    }
+    25% {
+        opacity: 0.8;
+        transform: translateY(-400px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-600px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-1000px);
+    }
+}
 /* 登入會員 */
 
 div.loginsec {
