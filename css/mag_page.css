@@ -156,9 +156,8 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     outline: none;
     cursor: pointer;
     border-width: 0px;
-    text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349);
-
-    /* box-shadow: 3px 1px 1px #97badb; */
+    /* text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349); */
+    box-shadow: 3px 1px 1px #97badb;
 }
 
 @media (max-width: 1200px) {
@@ -214,8 +213,9 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
         width: 90%;
     }
     #go_top {
-        bottom: 60px;
-        right: 20px;
+        background: none;
+        text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349);
+        box-shadow: none;
     }
     div.alltextandphoto {
         width: 90%;

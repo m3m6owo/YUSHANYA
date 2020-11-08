@@ -328,6 +328,55 @@ div.pagination_block > ul.pagination > li > a:hover {
     color: #a1b6c8;
 }
 
+/* ======================= hover ======================= */
+
+div.magpage_local_photo1 {
+    transition: opacity 1s ease;
+}
+div.magpage_local_photo1:hover .vsco,
+div.magpage_local_photo1:focus .vsco {
+    opacity: 0.4;
+}
+
+div.magpageright_local_photo1 {
+    transition: opacity 1s ease;
+}
+div.magpageright_local_photo1:hover .chez,
+div.magpageright_local_photo1:focus .chez {
+    opacity: 0.4;
+}
+
+div.magpage2_local_photo1 {
+    transition: opacity 1s ease;
+}
+div.magpage2_local_photo1:hover .chez,
+div.magpage2_local_photo1:focus .chez {
+    opacity: 0.4;
+}
+
+div.magpage2right_local_photo1 {
+    transition: opacity 1s ease;
+}
+div.magpage2right_local_photo1:hover .chez,
+div.magpage2right_local_photo1:focus .chez {
+    opacity: 0.4;
+}
+
+div.magpage3_local_photo1 {
+    transition: opacity 1s ease;
+}
+div.magpage3_local_photo1:hover .chez,
+div.magpage3_local_photo1:focus .chez {
+    opacity: 0.4;
+}
+
+div.magpage3right_local_photo1 {
+    transition: opacity 1s ease;
+}
+div.magpage3right_local_photo1:hover .chez,
+div.magpage3right_local_photo1:focus .chez {
+    opacity: 0.4;
+}
 /* ============================ RWD ============================ */
 
 @media (max-width: 1200px) {
