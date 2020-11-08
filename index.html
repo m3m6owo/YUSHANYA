@@ -92,7 +92,12 @@
                         S H A N　L I S T
                     </div>
                     <div class="banner_choose">ʻʻ Choose your style. ’’</div>
-                    <div class="banner_photo"><img src="./imag/car.png" /></div>
+                    <!-- <div class="banner_photo"><img src="./imag/car.png" /></div> -->
+                    <div class="banner_photo">
+                        <div><img src="./imag/car.png" /></div>
+                        <div><img src="./imag/flypush.png"/></div>
+                        <div><img src="./imag/flashpush.png"/></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -591,6 +596,47 @@
                 })
             })
         </script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.banner_photo').slick({
+            autoplay: true,
+            autoplaySpeed: 1800,
+            swipeToSlide: false, //可以左右自由滑動
+            infinite: true, //持續輪播
+            dots: true, //黑點點
+            arrows: false, //關閉 左右箭頭
+            responsive: [
+                //事件條件
+                // {
+                //     breakpoint: 1176,
+                //     settings: {
+                //         arrows: false,
+                //         centerMode: true,
+                //         slidesToShow: 4,
+                //     },
+                // },
+                
+                // {
+                //     breakpoint: 992,
+                //     settings: {
+                //         arrows: false,
+                //         // centerMode: true,
+                //         slidesToShow: 2,
+                //     },
+                // },
+                // {
+                //     breakpoint: 576,
+                //     settings: {
+                //         arrows: false,
+                //         // centerMode: true,
+                //         slidesToShow: 1,
+                //     },
+                // },
+            ],
+        })
+    })
+</script>
 
         <script>
             function init() {
