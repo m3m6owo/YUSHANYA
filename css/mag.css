@@ -428,13 +428,12 @@ div.p_text {
     color: #7893ad;
     background-color: rgb(241, 241, 241);
     border-radius: 50%;
-
     font-size: 20px;
     line-height: 1;
     outline: none;
     cursor: pointer;
     border-width: 0px;
-
+    /* text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349); */
     box-shadow: 3px 1px 1px #97badb;
 }
 
@@ -714,8 +713,11 @@ div.filter_photo4:focus .chez {
         margin: 20px auto 10px auto;
     }
     #go_top {
-        width: 20px;
-        height: 20px;
-        font-size: 14px;
+        background: none;
+        text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349);
+        box-shadow: none;
+        /* font-size: 25px; */
+        font-weight: bold;
+        right: 8px;
     }
 }

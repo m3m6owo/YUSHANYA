@@ -216,6 +216,9 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
         background: none;
         text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349);
         box-shadow: none;
+        /* font-size: 25px; */
+        font-weight: bold;
+        right: 8px;
     }
     div.alltextandphoto {
         width: 90%;

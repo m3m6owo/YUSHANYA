@@ -57,17 +57,16 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     background: none;
     position: fixed;
     right: 20px;
-    bottom: 30px;
+    bottom: 20px;
     color: #7893ad;
     background-color: rgb(241, 241, 241);
     border-radius: 50%;
-
     font-size: 20px;
     line-height: 1;
     outline: none;
     cursor: pointer;
     border-width: 0px;
-
+    /* text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349); */
     box-shadow: 3px 1px 1px #97badb;
 }
 
@@ -423,7 +422,7 @@ div.magpage3right_local_photo1:focus .chez {
     }
 
     #go_top {
-        margin-bottom: 20px;
+        bottom: 50px;
     }
 }
 
@@ -506,5 +505,13 @@ div.magpage3right_local_photo1:focus .chez {
 
     div.breadcrumb ol.breadcrumb_list > li {
         font-size: 14px;
+    }
+    #go_top {
+        background: none;
+        text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349);
+        box-shadow: none;
+        /* font-size: 25px; */
+        font-weight: bold;
+        right: 8px;
     }
 }

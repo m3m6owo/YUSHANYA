@@ -11,6 +11,10 @@ header {
     background-color: rgb(253, 249, 238);
 }
 
+#go_top {
+    display: none;
+}
+
 /* 推薦標題 */
 
 div.recom_title {
@@ -588,6 +592,25 @@ div.pagination_block > ul.pagination > li > a:hover {
     div.ig_box12 {
         width: 45%;
         margin-top: 0px;
+    }
+    #go_top {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: none;
+        position: fixed;
+        right: 8px;
+        bottom: 50px;
+        color: #7893ad;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 1;
+        outline: none;
+        cursor: pointer;
+        border-width: 0px;
+        text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349);
+        box-shadow: none;
+        font-weight: bold;
     }
 }
 

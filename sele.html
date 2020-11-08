@@ -279,7 +279,7 @@
                 <li><a href="#">&gt;</a></li>
             </ul>
         </div>
-
+        <button type="button" id="go_top">↑</button>
         <div class="footer">
             <div class="main_footer">
                 <div class="copy_text">COPYRIGHT &copy;SHAN LIST. ALL RIGHTS RESERVED</div>
@@ -307,6 +307,22 @@
                 })
             }
             window.onload = init
+        </script>
+
+        <script>
+            // DOM 載入完成後執行
+            $(function () {
+                // 點擊按鈕，頁面滑到最上方
+                $('#go_top').on('click', function (e) {
+                    e.preventDefault()
+                    $('html, body').animate(
+                        {
+                            scrollTop: 0,
+                        },
+                        750
+                    )
+                })
+            })
         </script>
     </body>
 </html>
