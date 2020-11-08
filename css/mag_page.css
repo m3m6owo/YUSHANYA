@@ -140,7 +140,7 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     color: #5f1d28;
 }
 
-/* #go_top {
+#go_top {
     width: 30px;
     height: 30px;
     background: none;
@@ -156,25 +156,6 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     cursor: pointer;
     border-width: 0px;
     box-shadow: 3px 1px 1px #97badb;
-} */
-
-#go_top {
-    width: 40px;
-    height: 40px;
-    background: none;
-    position: fixed;
-    right: 20px;
-    bottom: 30px;
-    color: rgb(255, 255, 255);
-    background-color: #76c5bb;
-    border-radius: 50%;
-    font-size: 20px;
-    line-height: 1;
-    outline: none;
-    cursor: pointer;
-    border-width: 0px;
-    text-shadow: 3px 1px 1px rgba(43, 43, 43, 0.349);
-    box-shadow: 3px 1px 1px rgba(43, 43, 43, 0.349);
 }
 
 @media (max-width: 1200px) {
@@ -242,7 +223,7 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     }
     #go_top {
         bottom: 50px;
-        right: 10px;
+        right: 30px;
     }
     div.alltextandphoto {
         width: 90%;
