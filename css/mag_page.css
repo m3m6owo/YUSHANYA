@@ -62,7 +62,7 @@ div.alltextandphoto {
     align-items: center;
 }
 div.appphoto {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
 
@@ -70,8 +70,9 @@ div.appphoto {
     align-items: center;
 }
 
-div.vscophoto {
-    width: 800px;
+div.vscophoto > img {
+    width: 100%;
+    margin: 0 auto;
 }
 
 div.all_text {
@@ -165,8 +166,8 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     div.text {
         width: 100%;
     }
-    div.vscophoto {
-        width: 800px;
+    div.vscophoto > img {
+        width: 100%;
     }
     #go_top {
         bottom: 50px;
@@ -182,24 +183,12 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     #go_top {
         bottom: 50px;
     }
+    div.vscophoto {
+        /* width: 80%; */
+    }
 }
-@media (max-width: 667px) {
-    /* div.logo_box > img {
-        width: 85%;
-    } */
-    /* .nav_right_box {
-        width: 60%;
-    }
-    .custom_select {
-        width: 120px;
-    }
-    .search_icon {
-        width: 20px;
-        margin-right: 5px;
-    }
-    .nav_text {
-        margin-left: 50px;
-    } */
+
+@media (max-width: 576px) {
     div.title {
         font-size: 18px;
         line-height: 30px;
@@ -207,10 +196,11 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     div.text {
         width: 100%;
         line-height: 30px;
-        font-size: 14px;
+        font-size: 16px;
     }
-    div.vscophoto {
-        width: 380px;
+
+    div.vscophoto > img {
+        width: 100%;
     }
     div.all_text {
         width: 90%;
