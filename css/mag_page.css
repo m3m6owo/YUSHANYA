@@ -155,7 +155,7 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     outline: none;
     cursor: pointer;
     border-width: 0px;
-    box-shadow: 3px 1px 1px #97badb;
+    /* box-shadow: 3px 1px 1px #97badb; */
 }
 
 @media (max-width: 1200px) {
