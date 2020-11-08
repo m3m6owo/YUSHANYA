@@ -1288,3 +1288,9 @@ div.card3:focus .hypephoto1 {
         bottom: 50px;
     }
 }
+
+@media (max-width: 576px) {
+    #go_top {
+        bottom: 50px;
+    }
+}

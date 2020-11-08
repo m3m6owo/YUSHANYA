@@ -713,4 +713,9 @@ div.filter_photo4:focus .chez {
     div.hot_text_rec2 {
         margin: 20px auto 10px auto;
     }
+    #go_top {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
 }
