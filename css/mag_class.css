@@ -85,6 +85,12 @@ div.mag_titletext {
     padding: 10px;
 }
 
+@media (max-width: 320px) {
+    div.mag_titletext {
+        width: 130px;
+        font-size: 18px;
+    }
+}
 div.magpageleft_rec {
     width: 50%;
 }
@@ -113,6 +119,14 @@ div.magpagedate1 {
     text-align: left;
     margin-bottom: 10px;
     color: rgb(110, 110, 110);
+}
+@media (max-width: 320px) {
+    div.magpage_local_font1 > a {
+        line-height: 25px;
+    }
+    div.magpagedate1 {
+        font-size: 14px;
+    }
 }
 
 /* 右邊 */
@@ -145,6 +159,15 @@ div.magpagerightdate1 {
     text-align: left;
     margin-bottom: 10px;
     color: rgb(110, 110, 110);
+}
+
+@media (max-width: 320px) {
+    div.magpageright_local_font1 > a {
+        line-height: 25px;
+    }
+    div.magpagerightdate1 {
+        font-size: 14px;
+    }
 }
 
 /* 第二行 */
@@ -186,6 +209,14 @@ div.magpageleft2date1 {
     color: rgb(110, 110, 110);
 }
 
+@media (max-width: 320px) {
+    div.magpage2_local_font1 > a {
+        line-height: 25px;
+    }
+    div.magpageleft2date1 {
+        font-size: 14px;
+    }
+}
 /* 右邊 */
 div.magpageright2_rec {
     width: 50%;
@@ -215,6 +246,14 @@ div.magpage2rightdate1 {
     color: rgb(110, 110, 110);
 }
 
+@media (max-width: 320px) {
+    div.magpage2right_local_font1 > a {
+        line-height: 25px;
+    }
+    div.magpage2rightdate1 {
+        font-size: 14px;
+    }
+}
 /* 第三行 */
 
 div.magpage_local3 {
@@ -254,7 +293,14 @@ div.mmagpagedate1 {
     margin-bottom: 10px;
     color: rgb(110, 110, 110);
 }
-
+@media (max-width: 320px) {
+    div.magpage3_local_font1 > a {
+        line-height: 25px;
+    }
+    div.mmagpagedate1 {
+        font-size: 14px;
+    }
+}
 /* 右邊 */
 
 div.magpageright3_rec {
@@ -284,6 +330,14 @@ div.magpage3rightdate1 {
     margin-bottom: 10px;
     color: rgb(110, 110, 110);
 }
+@media (max-width: 320px) {
+    div.magpage3right_local_font1 > a {
+        line-height: 25px;
+    }
+    div.magpage3rightdate1 {
+        font-size: 14px;
+    }
+}
 
 /* 頁碼 */
 
@@ -311,7 +365,6 @@ div.pagination_block > ul.pagination > li > a {
     color: #13161a;
 }
 
-/* 留意: 將第一個 li 裡的 a，加上圓角 */
 div.pagination_block > ul.pagination > li:first-child > a {
     display: inline-block;
     border-radius: 5px 0 0 5px;
@@ -326,7 +379,12 @@ div.pagination_block > ul.pagination > li > a:hover {
     /* background-color: #e9ecef; */
     color: #a1b6c8;
 }
-
+@media (max-width: 320px) {
+    div.pagination_block > ul.pagination > li > a {
+        font-size: 16px;
+        width: 10px;
+    }
+}
 /* ======================= hover ======================= */
 
 div.magpage_local_photo1 {
@@ -514,4 +572,13 @@ div.magpage3right_local_photo1:focus .chez {
         font-weight: bold;
         right: 8px;
     }
+}
+@media (max-width: 320px) {
+    div.pagination_block > ul.pagination > li > a {
+        font-size: 14px;
+    }
+
+    /* div.breadcrumb ol.breadcrumb_list > li {
+        font-size: 14px;
+    } */
 }

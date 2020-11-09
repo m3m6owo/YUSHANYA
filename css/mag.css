@@ -27,7 +27,6 @@ div.magtitle {
     color: #fed699;
     font-size: 28px;
     font-weight: bold;
-
     align-items: center;
     justify-content: center;
     margin-top: 40px;
@@ -641,9 +640,7 @@ div.filter_photo4:focus .chez {
         flex-direction: row;
         width: 50%;
     }
-    /* div.hot_font2 > a {
-        width: 30%;
-    } */
+
     div.border1 {
         display: none;
     }
@@ -719,5 +716,45 @@ div.filter_photo4:focus .chez {
         /* font-size: 25px; */
         font-weight: bold;
         right: 8px;
+    }
+}
+@media (max-width: 320px) {
+    div.magtitle {
+        font-size: 18px;
+        width: 150px;
+        height: 35px;
+    }
+    div.magtitlebox {
+        height: 100px;
+    }
+    div.hot_text_page {
+        font-size: 16px;
+        align-items: center;
+        width: 75px;
+    }
+    div.hot_text_page3 {
+        font-size: 16px;
+        align-items: center;
+        width: 100px;
+    }
+    div.hot_text_page2 {
+        font-size: 16px;
+        align-items: center;
+        width: 100px;
+    }
+    div.hot_font1 > a {
+        font-size: 17px;
+    }
+    div.hottext_a > a {
+        font-size: 14px;
+    }
+    div.date2 {
+        font-size: 14px;
+    }
+    p.page_more2 {
+        font-size: 14px;
+    }
+    p.page_more {
+        font-size: 14px;
     }
 }

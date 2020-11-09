@@ -337,3 +337,14 @@ img {
         height: 100%;
     }
 }
+@media (max-width: 320px) {
+    #heart {
+        width: 30px;
+        margin-top: 3px;
+    }
+    .rec_local{
+        width: 30px;
+        margin-top: 3px;
+    }
+    }
+}

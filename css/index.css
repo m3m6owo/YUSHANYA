@@ -31,6 +31,20 @@ div.banner_choose {
     font-family: 'Source Serif Pro';
 }
 
+@media (max-width: 320px) {
+    .banner_shanlist {
+        font-size: 35px;
+        color: #5f7eaf;
+    }
+    div.banner_choose {
+        font-size: 20px;
+        color: #5f7eaf;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-family: 'Source Serif Pro';
+    }
+}
+
 /* =================服務內容================= */
 
 div.serve_box {
@@ -162,6 +176,12 @@ div.recommend_text {
         height: 40px;
         margin-top: 55px;
         margin-bottom: 35px;
+    }
+}
+@media (max-width: 320px) {
+    div.recommend_text {
+        width: 160px;
+        height: 40px;
     }
 }
 /* ========================================== 推薦大區 ========================================== */
@@ -311,7 +331,17 @@ div.right_text2 > img {
     align-content: center;
     justify-content: center;
 }
-
+@media (max-width: 320px) {
+    #heart {
+        width: 30px;
+        margin-top: 3px;
+    }
+    .rec_local{
+        width: 30px;
+        margin-top: 3px;
+    }
+    }
+}
 /* ===================slick===================== */
 
 img {
@@ -1158,6 +1188,46 @@ div.ddd_text {
         font-size: 16px;
         width: 300px;
         margin: 5px auto 5px auto;
+    }
+}
+
+@media (max-width: 320px) {
+    div.card3 {
+        width: 270px;
+        margin-top: 20px;
+    }
+    div.ddd_onaname {
+        font-size: 18px;
+        width: 270px;
+    }
+    div.ddd_text {
+        font-size: 16px;
+        width: 270px;
+    }
+    div.card2 {
+        width: 270px;
+        margin-top: 20px;
+    }
+    div.ccc_onaname {
+        font-size: 18px;
+        width: 270px;
+    }
+    div.ccc_text {
+        font-size: 16px;
+        width: 270px;
+    }
+    div.card1 {
+        width: 270px;
+        margin-top: 20px;
+    }
+    div.bbb_onaname {
+        font-size: 18px;
+        width: 270px;
+    }
+
+    div.bbb_text {
+        font-size: 16px;
+        width: 270px;
     }
 }
 

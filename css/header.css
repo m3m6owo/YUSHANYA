@@ -198,3 +198,19 @@ a.contectus:active {
         margin-right: 20px;
     }
 }
+
+@media (max-width: 320px) {
+    .logo_box {
+        width: 60px;
+        height: 60px;
+    }
+    .search {
+        margin-right: 30px;
+    }
+    .nav_text {
+        margin-right: 50px;
+    }
+    .custom_select {
+        width: 90px;
+    }
+}

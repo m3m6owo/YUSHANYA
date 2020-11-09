@@ -447,7 +447,6 @@ div.pagination_block > ul.pagination > li > a {
     color: #13161a;
 }
 
-/* 留意: 將第一個 li 裡的 a，加上圓角 */
 div.pagination_block > ul.pagination > li:first-child > a {
     display: inline-block;
     border-radius: 5px 0 0 5px;
@@ -463,6 +462,12 @@ div.pagination_block > ul.pagination > li > a:hover {
     color: #a1b6c8;
 }
 
+@media (max-width: 320px) {
+    div.pagination_block > ul.pagination > li > a {
+        font-size: 16px;
+        width: 10px;
+    }
+}
 .hastag {
     display: flex;
     justify-content: space-around;
@@ -843,5 +848,13 @@ div.ig_p_12:focus .kimm {
     .hastag > a {
         margin-right: 10px;
         font-size: 16px;
+    }
+}
+@media (max-width: 320px) {
+    div.recom_title_2 {
+        font-size: 20px;
+        margin-bottom: 35px;
+        width: 150px;
+        height: 35px;
     }
 }

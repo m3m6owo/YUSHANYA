@@ -20,7 +20,6 @@ div.bigbox {
 }
 
 div.titlebox {
-    /* min-width: 1519.2px; */
     display: flex;
 }
 div.text {
@@ -50,8 +49,12 @@ div.title {
     margin: 20px auto 30px auto;
     font-weight: bold;
 }
-div.bigbox {
-    /* min-width: 1519.2px; */
+
+@media (max-width: 320px) {
+    div.titlebox {
+        display: flex;
+        height: 200px;
+    }
 }
 
 div.alltextandphoto {
@@ -206,12 +209,12 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     div.all_text {
         width: 90%;
     }
-    ol.breadcrumb_list {
+    /* ol.breadcrumb_list {
         font-size: 14px;
     }
     div.breadcrumb_box {
         width: 90%;
-    }
+    } */
     #go_top {
         background: none;
         text-shadow: 3px 1px 1px rgba(175, 175, 175, 0.349);
@@ -222,5 +225,14 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover {
     }
     div.alltextandphoto {
         width: 90%;
+    }
+}
+@media (max-width: 320px) {
+    div.pagination_block > ul.pagination > li > a {
+        font-size: 14px;
+    }
+
+    div.breadcrumb ol.breadcrumb_list > li {
+        font-size: 14px;
     }
 }

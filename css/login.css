@@ -69,11 +69,11 @@ div.background {
 @keyframes ppmove {
     /*泡泡移動動畫*/
     0% {
-        opacity: 0.5;
+        opacity: 1;
         transform: translateY(0px);
     }
     25% {
-        opacity: 0.8;
+        opacity: 1;
         transform: translateY(-400px);
     }
     50% {
