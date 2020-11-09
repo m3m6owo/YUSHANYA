@@ -185,13 +185,13 @@ a.contectus:active {
 }
 @media (max-width: 472px) {
     .search {
-        border: 1px solid green;
+        /* border: 1px solid green; */
         width: 100%;
     }
     .custom_select {
         width: 100%;
 
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .search_icon {
         width: 45px;
