@@ -183,10 +183,24 @@ a.contectus:active {
         justify-content: space-around;
     }
 }
+@media (max-width: 472px) {
+    .search {
+        border: 1px solid green;
+        width: 100%;
+    }
+    .custom_select {
+        width: 100%;
+
+        border: 1px solid red;
+    }
+    .search_icon {
+        width: 45px;
+    }
+}
 @media (max-width: 376px) {
     .custom_select {
         /* width: 110px; */
-        width: 100px;
+        /* width: 100px; */
     }
 
     .logo_box {
