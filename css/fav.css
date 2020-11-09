@@ -15,6 +15,16 @@ header {
     display: none;
 }
 
+div.box_text1 {
+    display: none;
+}
+div.box_text2 {
+    display: none;
+}
+div.box_text3 {
+    display: none;
+}
+
 /* 推薦標題 */
 
 div.recom_title {
@@ -668,6 +678,53 @@ div.pagination_block > ul.pagination > li > a:hover {
     div.ig_box12 {
         width: 90%;
         margin: 0 auto 50px auto;
+    }
+    div.box_text3 {
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        color: black;
+        justify-content: center;
+        background-color: #60728f;
+        color: white;
+        height: 30px;
+    }
+    div.box_text2 {
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        color: black;
+        justify-content: center;
+        background-color: #e5c1c5;
+        color: white;
+        height: 30px;
+    }
+    div.box_text1 {
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        color: black;
+        justify-content: center;
+        color: white;
+        height: 30px;
+        background-color: #e2ccb9;
+    }
+    div.middle,
+    div.middle2,
+    div.middle3,
+    div.middle4,
+    div.middle5,
+    div.middle6,
+    div.middle7,
+    div.middle8,
+    div.middle9,
+    div.middle10,
+    div.middle11,
+    div.middle12 {
+        display: none;
     }
 }
 @media (max-width: 320px) {
