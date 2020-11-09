@@ -185,14 +185,17 @@ a.contectus:active {
 }
 @media (max-width: 376px) {
     .custom_select {
-        width: 110px;
+        /* width: 110px; */
+        width: 100px;
     }
+
     .logo_box {
         width: 70px;
         height: 70px;
     }
     .search {
         margin-right: 20px;
+        /* width: 100%; */
     }
     .nav_text {
         margin-right: 20px;
@@ -205,7 +208,8 @@ a.contectus:active {
         height: 60px;
     }
     .search {
-        margin-right: 30px;
+        margin-right: 40px;
+        /* width: 100%; */
     }
     .nav_text {
         margin-right: 50px;
