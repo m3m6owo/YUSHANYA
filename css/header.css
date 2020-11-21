@@ -37,6 +37,7 @@ header {
 
 .custom_select {
     width: 160px;
+    padding: 2px;
 }
 
 .search_icon {

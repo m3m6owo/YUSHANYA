@@ -8,6 +8,7 @@ img {
 }
 .con_box {
     /* min-width: 1519.2px; */
+    min-height: 80vh;
 }
 div.shanlistphoto {
     /* border: 1px solid red; */
